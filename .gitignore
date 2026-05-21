@@ -13,3 +13,21 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+
+# Local AI/agent tooling state
+.omc/
+.omx/
+.codex/
+.claude/
+.cursor/
+.windsurf/
+.aider*
+.roo/
+.gemini/
+.crush/
+.mcp.json
+
+# Local environment files
+.env
+.env.*
+!.env.example
